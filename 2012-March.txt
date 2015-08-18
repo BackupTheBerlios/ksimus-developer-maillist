@@ -1,0 +1,57 @@
+From khat33b at gmail.com  Tue Mar  6 06:51:45 2012
+From: khat33b at gmail.com (Mohammed Khateeb Kamran)
+Date: Tue, 6 Mar 2012 11:21:45 +0530
+Subject: [Ksimus-developer] Not compiling
+Message-ID: <CADRF57zrnf8Q9QtR1rvFtzfeSTN9qVEG0=2AGTo3g-ymzV7AZA@mail.gmail.com>
+
+When I enter the command make
+it shows an error:
+make: *** No targets specified and no makefile found.  Stop.
+
+
+The result of the configure command :
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for -p flag to install... yes
+checking whether build environment is sane... yes
+checking for gawk... no
+checking for mawk... mawk
+checking whether make sets ${MAKE}... yes
+checking for style of include used by make... GNU
+checking for gcc... gcc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables...
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether gcc accepts -g... yes
+checking dependency style of gcc... gcc3
+checking how to run the C preprocessor... gcc -E
+checking for g++... no
+checking for c++... no
+checking for gpp... no
+checking for aCC... no
+checking for CC... no
+checking for cxx... no
+checking for cc++... no
+checking for cl... no
+checking for FCC... no
+checking for KCC... no
+checking for RCC... no
+checking for xlC_r... no
+checking for xlC... no
+checking whether we are using the GNU C++ compiler... no
+checking whether g++ accepts -g... no
+checking dependency style of g++... none
+checking whether g++ supports -Wundef... no
+checking whether g++ supports -Wno-long-long... no
+checking whether g++ supports -Wnon-virtual-dtor... no
+checking how to run the C++ preprocessor... /lib/cpp
+configure: error: C++ preprocessor "/lib/cpp" fails sanity check
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/ksimus-developer/attachments/20120306/9a6d0c36/attachment.html>
+
